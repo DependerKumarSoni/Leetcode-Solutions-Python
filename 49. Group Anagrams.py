@@ -4,7 +4,7 @@
 
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
-        # defining an empty dictionary
+        # defining an empty dictionary.
         Map = {} 
 
         # looping over the input list of strings.
@@ -16,13 +16,13 @@ class Solution:
             # if the key (sorted form of string) is present in Map:
             if key in Map:
 
-                # just add this string as well into the same array
+                # just add this string as well into the same array.
                 Map[key].append(s) 
             
-            # otherwise
+            # otherwise:
             else: 
                 
-                # create a new key: value pair into the Map, where key is the sorted form of value (string s)
+                # create a new key: value pair into the Map, where key is the sorted form of value (string s).
                 Map[key] = [s] 
         
         # finally, return the list of values created inside the Map.

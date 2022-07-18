@@ -7,7 +7,6 @@ class Solution:
             for j in range(1,n):
                 matrix[i][j] += matrix[i][j-1]
         
-        # print(matrix)
         ans = 0
         #submatrix column division for each pair of columns
         for sc1 in range(n):
