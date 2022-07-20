@@ -1,4 +1,4 @@
-# Question:
+# Question: https://leetcode.com/problems/path-sum/
 
 # Solution for Leetcode:
 
@@ -9,7 +9,7 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def hasPathSum(self, root: Optional[TreeNode], targetSum: int) -> bool:
+    def hasPathSum(self, root, targetSum: int) -> bool:
         
         def paths(r,target,sums):
             if r is not None:
