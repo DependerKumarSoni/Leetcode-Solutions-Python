@@ -3,7 +3,7 @@
 # Solution for Leetcode
 
 class Solution:
-    def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
+    def checkStraightLine(self, coordinates: list[list[int]]) -> bool:
         coor = coordinates
 
         # differece between ordinates of first two consecutive coordinates.
