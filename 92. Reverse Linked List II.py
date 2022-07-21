@@ -2,6 +2,9 @@
 
 # Solution for Leetcode:
 
+# This solution is using extra space for storing values and nodes.
+# Later I'll try to do the same without extra space.
+
 class Solution:
     def reverseBetween(self, head, left: int, right: int):
         # to stores the values that needed to be reverse.
